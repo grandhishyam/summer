@@ -42,6 +42,7 @@ const connectDB = () => {
     });
 };
 
+
 const startServer = async () => {
   try {
     connectDB();
